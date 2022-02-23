@@ -1,0 +1,239 @@
+body  { 
+    background-color: hsl(233, 47%, 7%);
+}
+
+.number {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1px 390px 200px;
+    height: 500px;
+    gap: 0.005px;
+    justify-content: center;
+}  
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}     
+
+h5 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}     
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}   
+
+table {
+   table-layout: auto;
+   width: 70%;
+}     
+
+.vanish {
+    visibility: visible;
+}
+
+.center {
+    display: none;
+}
+
+#first {
+    color: indigo;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#second {
+    max-width: auto;
+    height: auto;
+}
+
+.one { 
+    grid-column: 1;
+    grid-row: 2/3;
+    align-content: center;
+}
+
+.two { 
+    grid-column: 1;
+    grid-row: 3;
+    align-content: center;
+}
+
+.three { 
+    grid-column: 2/3;
+    grid-row: 1/4;
+    z-index: 2;
+}
+
+.four { 
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.one { 
+    background-color: hsl(244, 38%, 16%);
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 0.1px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 0.1px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+} 
+
+.two { 
+    background-color: hsl(244, 38%, 16%);
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 0.1px;
+    margin-top: 0.1px;
+    margin-bottom: 15px;
+} 
+
+.three { 
+    background-color: hsla(300, 75%, 62%, 0.418);
+    margin-top: 10px;
+    margin-bottom: 15px;
+} 
+
+.four { 
+    margin-top: 10px;
+    margin-bottom: 15px;
+    } 
+
+@media screen and (max-width: 375px) {
+    .number {
+        color: white;
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: 217px;
+        height: auto;
+        align-content: center;
+    } 
+    
+    h4 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: center;
+    }     
+    
+    h5 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-size: 7px;
+        text-align: center;
+    }     
+    
+    p {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: center;
+    }   
+    
+    table {
+       table-layout: auto;
+       width: 70%;
+    }   
+    
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+    }
+
+    .vanish {
+        display: none;
+    }
+
+    #first {
+        color: indigo;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+    }
+    
+    #second {
+        max-width: auto;
+        height: auto;
+    }
+
+    .one { 
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .two { 
+        grid-column: 1;
+        grid-row: 3;
+
+    }
+    
+    .three { 
+        grid-column: 1;
+        grid-row: 1;
+        z-index: 2;
+        align-content: center;
+    }
+    
+    .four { 
+        grid-column: 1;
+        grid-row: 1;
+        align-content: center;
+    }
+
+    img {
+        width: 250px;
+        height: 240px;
+        margin: auto;
+    } 
+
+    .one { 
+        background-color: hsl(244, 38%, 16%);
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 0.1px;
+        padding-right: 10px;
+        margin-left: 0.1px;
+        margin-right: 0.1px;
+        margin-top: 0.05px;
+        margin-bottom: 0px;
+    } 
+    
+    .two { 
+        background-color: hsl(244, 38%, 16%);
+        padding-left: 10px;
+        padding-top: 2px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        margin-left: 0.1px;
+        margin-right: 0.1px;
+        margin-top: 0.1px;
+        margin-bottom: 15px;
+    } 
+
+    .three { 
+        background-color: hsla(300, 75%, 62%, 0.418);
+        margin-top: 10px;
+        margin-bottom: 0.1px;
+    } 
+    
+    .four { 
+        margin-top: 10px;
+        margin-bottom: 0.1px;
+    } 
+
+}
